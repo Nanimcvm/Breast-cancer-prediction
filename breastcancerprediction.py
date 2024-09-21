@@ -2,7 +2,7 @@
 """
 Created on Mon Jun 12 14:52:19 2023
 
-@author: ppras
+@author: Nanimcvm
 """
 
 import numpy as np
@@ -10,7 +10,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 #loading the saved model
-loaded_model=pickle.load(open("C:/Users/ppras/Downloads/data1.sav",'rb'))
+loaded_model=pickle.load(open("C:/Users/Gangaa/Downloads/data1.sav",'rb'))
 def breast_cancer_prediction(input_data):
     # changing the input_data to numpy array
     input_data_as_numpy_array = np.asarray(input_data)
